@@ -1,0 +1,27 @@
+ion-content {
+    --background: #5260ff;
+}
+
+ion-radio {
+    --border-radius: 4px;
+    --inner-border-radius: 4px;
+  
+    --color: #ddd;
+    --color-checked: #5260ff;
+  }
+  
+  ion-radio.ios {
+    width: 20px;
+    height: 20px;
+  
+    border: 2px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .radio-checked.ios {
+    border-color: #5260ff;
+  }
+
+  ion-button{
+    margin: 15px;
+  }
